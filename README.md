@@ -168,7 +168,7 @@
  - Análogo a outras linguagens, as operações lógicas `>`, `>=`, `==`, `!=`, `<` e `<=` são suportadas.
 
 ### Laços de Repetição
-  - É possível iterar elementos de um tipo iterável através do `for`. Exemplo de loop `for` em Rust:
+  - É possível iterar elementos de um tipo iterável através do `for`. Exemplo de loop for em Rust:
     ```Rust
         fn main(){
             let iteravel = [1, 2, 3, 4, 5];
@@ -198,7 +198,7 @@
             }
         }
     ```
-  - Também é possível iterar elementos de um tipo iterável através do `while`. Exemplo de loop `while` em Rust:
+  - Também é possível iterar elementos de um tipo iterável através do `while`. Exemplo de loop while em Rust:
     ```Rust
         use std::time::{Duration,Instant};
 
@@ -212,7 +212,20 @@
             println!("{}", count);
         }
     ```
-  
+    
+- Em Rust também é possível obter ainda mais controle utilizando `loop`. A execução ocorrerá até que o ciclo seja interrompido com a palavra reservada `break`. Exemplo:
+    ```Rust
+        fn main(){
+            let mut i = 0;
+            loop {
+                i = i + 1;
+                if i > 10 {
+                    break;
+                }
+            }
+        }
+    ```
+    
     # Colaboradores
     - Caio Augusto Palma
     - Sara Robert Nahra
