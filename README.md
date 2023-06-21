@@ -231,5 +231,5 @@
     - Sara Robert Nahra
     
     # Referências
-    - 
+    - [A linguagem de programação Rust](https://rust-br.github.io/rust-book-pt-br/)
     
